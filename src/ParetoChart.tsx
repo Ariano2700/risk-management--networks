@@ -80,7 +80,7 @@ const ParetoChart = ({ edges }: { edges: Edge[] }) => {
         type: "linear" as const,
         position: "right" as const,
         grid: {
-          drawOnChartArea: false, // Evitar que la cuadrícula del eje secundario se superponga
+          drawOnChartArea: false,
         },
         title: {
           display: true,
