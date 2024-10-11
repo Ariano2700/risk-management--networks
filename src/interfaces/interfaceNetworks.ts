@@ -6,5 +6,6 @@ export interface Node {
 export interface Edge {
   from: number;
   to: number;
+  risk: number;
   label?: string;
 }

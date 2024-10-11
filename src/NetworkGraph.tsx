@@ -19,7 +19,7 @@ const NetworkGraph = ({ data }: { data: GraphData }) => {
           size: 16,
         },
         color: {
-          background: "#CDC1FF", // Color global de los nodos
+          background: "#8967B3", // Color global de los nodos
           border: "#A594F9",
           highlight: {
             background: "#E5D9F2",
@@ -30,7 +30,7 @@ const NetworkGraph = ({ data }: { data: GraphData }) => {
       edges: {
         arrows: "to", // Esto asegura que las flechas se muestren en las conexiones
         color: {
-          color: "#A594F9", // Color de la línea de conexión
+          color: "#624E88", // Color de la línea de conexión
         },
         font: {
           size: 14, // Tamaño del label
@@ -48,7 +48,7 @@ const NetworkGraph = ({ data }: { data: GraphData }) => {
     }
   }, [data]);
 
-  return <div ref={networkRef} style={{ height: "500px" }} />;
+  return <div ref={networkRef} style={{ height: "500px", width:"100%" }} />;
 };
 
 export default NetworkGraph;

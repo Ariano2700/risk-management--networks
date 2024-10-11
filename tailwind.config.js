@@ -9,6 +9,8 @@ export default {
           10: "#F5EFFF",
           15: "#CDC1FF",
           20: "#A594F9",
+          25: "#8967B3",
+          30: "#624E88",
           DEFAULT:"#efe9f5",
         },
       },
